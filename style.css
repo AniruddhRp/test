@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    padding-left: 143px;
+    padding-right: 244px;
+}
+
+#hero {
+    width: 100vw;
+    background-image: url("https://professional.dce.harvard.edu/wp-content/uploads/sites/9/2021/02/engaged-employees.jpg");
+    object-fit: cover;
+}
+
+#hero img {
+    width: 50%;
+}
+
+ .gap {
+    gap: 292px;
+ }
+
+ .btn-color {
+    background-color: orange;
+ }
+
+ .hero-section {
+    max-width: 420px;
+    margin-top: 200px;
+ }
+
+ .hero-section p {
+    margin-top: 25px;
+ }
+
+ .hero-section button {
+    margin-top: 30px;
+ }
+.hero-wrapper{
+    width: 100vw;
+    display: flex;
+ }
+
+#services{
+    height: 50vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.services-grid{
+    display: grid;
+    grid-template-columns: repeat(4,200px);
+    gap: 20px;
+}
+ .service-content{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 32px;
+ }
+
+ .service-wrapper {
+
+    max-width: 1000px;
+ }
+
+ .section-3content img{
+    border-radius: 25%;
+ }
+
+ .section-3content {
+    display: flex;
+    gap: 100px;
+ }
+
+ .section-3text {
+    max-width: 500px;
+ }
+
+ #section-3{
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    align-items: center;
+ }
+
+ #section-4 {
+    background-color: bisque;
+    height: 35vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ #section-5{
+    background-color: yellow;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    justify-content: center;
+ }
+
